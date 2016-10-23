@@ -1,0 +1,23 @@
+{
+  "name": "kob",
+  "version": "1.1.0",
+  "description": "The web app let children play and learn.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColdDry/King-of-Bombard-1.1.git"
+  },
+  "author": "hjh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ColdDry/King-of-Bombard-1.1/issues"
+  },
+  "homepage": "https://github.com/ColdDry/King-of-Bombard-1.1#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

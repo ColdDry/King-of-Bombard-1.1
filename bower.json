@@ -1,0 +1,23 @@
+{
+  "name": "kob",
+  "description": "The web app let children play and learn.",
+  "main": "app.js",
+  "authors": [
+    "hjh"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ColdDry/King-of-Bombard-1.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "boostrap#^3.3.7"
+  }
+}
