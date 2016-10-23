@@ -13,3 +13,18 @@ h3{
     background-color: white;
 }
 
+.game-ground{
+    width: 1000px;
+    height: 715px;
+    margin: auto;
+    background-color: #0f0f0f;
+    border: solid 3px #2b669a;
+}
+.mission-area{
+    width: 980px;
+    height: 258px ;
+    margin:10px auto ;
+    border-radius: 20px;
+    background-color: #c4ffe5;
+}
+
