@@ -10,12 +10,16 @@
             templateUrl: 'caption.htm',
             controller: 'captionCtrl'
         }).when('/main', {
-            templateUrl: 'main.html',
+            templateUrl: 'main.htm',
             controller: 'mainCtrl'
         });
     }]);
 
     app.controller('captionCtrl',['$scope',function ($scope) {
+
+    }]);
+
+    app.controller('mainCtrl',[$scope,function ($scope) {
 
     }]);
 
