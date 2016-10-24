@@ -9,6 +9,13 @@ h3 {
     line-height: 1.5;
 }
 
+p {
+    font-size: 24px;
+}
+
+.cursor-style {
+    cursor: pointer;
+}
 
 .bg-white {
     background-color: white;
@@ -59,9 +66,19 @@ h3 {
     background: #dcdcdc;
 }
 
-.fire-button{
+.fire-button {
     bottom: 50px;
     left: 161px;
     position: relative;
     z-index: 200;
+}
+
+.dialog-frame {
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #c8e5bc;
+    padding: 10px;
+    overflow: visible;
+    overflow-x: hidden;
 }
