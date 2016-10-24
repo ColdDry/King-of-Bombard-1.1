@@ -1,30 +1,67 @@
-html,body{
+html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-    font-family: "Microsoft JhengHei UI",Consolas;
+    font-family: "Microsoft JhengHei UI", Consolas;
 }
 
-h3{
+h3 {
     line-height: 1.5;
 }
 
-.bg-white{
+
+.bg-white {
     background-color: white;
 }
 
-.game-ground{
+.game-ground {
     width: 1000px;
     height: 715px;
     margin: auto;
     background-color: #0f0f0f;
     border: solid 3px #2b669a;
 }
-.mission-area{
+
+.mission-area {
     width: 980px;
-    height: 258px ;
-    margin:10px auto ;
+    height: 258px;
+    margin: 10px auto;
     border-radius: 20px;
     background-color: #c4ffe5;
 }
 
+.tip-area {
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin: 10px 10px auto;
+}
+
+.answer-area {
+    width: 472px;
+    height: 429px;
+    float: left;
+}
+
+.input-answer {
+    margin-left: 136px;
+    width: 200px;
+    background: none;
+    border: 5px #9cd28e solid;
+    font-size: 32px;
+    color: white;
+}
+
+.gray-desk {
+    width: 472px;
+    height: 150px;
+    margin-top: 92px;
+    background: #dcdcdc;
+}
+
+.fire-button{
+    bottom: 50px;
+    left: 161px;
+    position: relative;
+    z-index: 200;
+}
