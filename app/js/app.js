@@ -37,6 +37,7 @@
         $scope.showSuccess = false;
         $scope.showFail = false;
         $scope.showTip = false;
+        $scope.showAgainBtn = false;
         var playable= true;
         var playTimes = 0;
         var isInt = /^[0-9]*[1-9][0-9]*$/; //判斷正整數的function
@@ -49,13 +50,13 @@
                     $scope.srcTank = imgSrc.getTankImgs($scope.inputAns)[count];
                     $scope.srcShoot = imgSrc.getShootImgs($scope.inputAns)[count];
                     count++;
-                }, 200, 8);
+                }, 250, 8);
                 $timeout(function () {
                     $scope.srcLine = imgSrc.getLineImgs(quesRes[quesNow].ques, $scope.inputAns);
                     $timeout(function () {
                         checkAns();
-                    }, 800);
-                }, 1500);
+                    }, 900);
+                }, 2400);
                 playable = false;
                 playTimes++;
             }
@@ -75,20 +76,39 @@
                         $scope.showSuccess = false;
                         $scope.showFail = true;
                         $scope.showTip = false;
+                        $scope.showAgainBtn = true;
                         break;
                     case 2:
                         $scope.showShoot = false;
                         $scope.showSuccess = false;
-                        $scope.showFail = false;
-                        $scope.showTip = true;
-                        $scope.point = quesRes[quesNow].point_1;
+                        $scope.showFail = true;
+                        $scope.showTip = false;
+                        $timeout(function () {
+                            $scope.showShoot = false;
+                            $scope.showSuccess = false;
+                            $scope.showFail = false;
+                            $scope.showTip = true;
+                            $scope.point = quesRes[quesNow].point_1;
+                            $timeout(function () {
+                                $scope.showAgainBtn = true;
+                            },5000);
+                        },3000);
                         break;
                     default:
                         $scope.showShoot = false;
                         $scope.showSuccess = false;
-                        $scope.showFail = false;
-                        $scope.showTip = true;
-                        $scope.point = quesRes[quesNow].point_2;
+                        $scope.showFail = true;
+                        $scope.showTip = false;
+                        $timeout(function () {
+                            $scope.showShoot = false;
+                            $scope.showSuccess = false;
+                            $scope.showFail = false;
+                            $scope.showTip = true;
+                            $scope.point = quesRes[quesNow].point_2;
+                            $timeout(function () {
+                                $scope.showAgainBtn = true;
+                            },5000);
+                        },3000);
                         break;
                 }
 
@@ -100,8 +120,10 @@
             $scope.showSuccess = false;
             $scope.showFail = false;
             $scope.showTip = false;
+            $scope.showAgainBtn = false;
             playable = true;
             $scope.inputAns = '';
+
         }
 
 
