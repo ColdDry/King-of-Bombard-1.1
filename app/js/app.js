@@ -21,9 +21,9 @@
 
     app.controller('mainCtrl',['$scope','imgSrc', '$timeout', '$interval',function ($scope, $timeout, $interval, imgSrc) {
         $scope.showShoot = true;
-        $scope.showSuccess = true;
-        $scope.showFail = true;
-        $scope.showTip = true;
+        $scope.showSuccess = false;
+        $scope.showFail = false;
+        $scope.showTip = false;
 
     }]);
 
