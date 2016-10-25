@@ -2,157 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a9092e3-0cbd-49bd-a050-3589e68c59d2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001.png" afterPath="$PROJECT_DIR$/app/img/001.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_10.png" afterPath="$PROJECT_DIR$/app/img/001_10.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_11.png" afterPath="$PROJECT_DIR$/app/img/001_11.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_110.png" afterPath="$PROJECT_DIR$/app/img/001_110.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_111.png" afterPath="$PROJECT_DIR$/app/img/001_111.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_112.png" afterPath="$PROJECT_DIR$/app/img/001_112.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_113.png" afterPath="$PROJECT_DIR$/app/img/001_113.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_114.png" afterPath="$PROJECT_DIR$/app/img/001_114.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_115.png" afterPath="$PROJECT_DIR$/app/img/001_115.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_12.png" afterPath="$PROJECT_DIR$/app/img/001_12.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_13.png" afterPath="$PROJECT_DIR$/app/img/001_13.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_14.png" afterPath="$PROJECT_DIR$/app/img/001_14.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_15.png" afterPath="$PROJECT_DIR$/app/img/001_15.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_16.png" afterPath="$PROJECT_DIR$/app/img/001_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_17.png" afterPath="$PROJECT_DIR$/app/img/001_17.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_18.png" afterPath="$PROJECT_DIR$/app/img/001_18.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/001_19.png" afterPath="$PROJECT_DIR$/app/img/001_19.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002.png" afterPath="$PROJECT_DIR$/app/img/002.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_10.png" afterPath="$PROJECT_DIR$/app/img/002_10.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_11.png" afterPath="$PROJECT_DIR$/app/img/002_11.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_110.png" afterPath="$PROJECT_DIR$/app/img/002_110.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_111.png" afterPath="$PROJECT_DIR$/app/img/002_111.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_112.png" afterPath="$PROJECT_DIR$/app/img/002_112.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_113.png" afterPath="$PROJECT_DIR$/app/img/002_113.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_114.png" afterPath="$PROJECT_DIR$/app/img/002_114.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_115.png" afterPath="$PROJECT_DIR$/app/img/002_115.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_12.png" afterPath="$PROJECT_DIR$/app/img/002_12.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_13.png" afterPath="$PROJECT_DIR$/app/img/002_13.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_14.png" afterPath="$PROJECT_DIR$/app/img/002_14.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_15.png" afterPath="$PROJECT_DIR$/app/img/002_15.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_16.png" afterPath="$PROJECT_DIR$/app/img/002_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_17.png" afterPath="$PROJECT_DIR$/app/img/002_17.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_18.png" afterPath="$PROJECT_DIR$/app/img/002_18.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/002_19.png" afterPath="$PROJECT_DIR$/app/img/002_19.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003.png" afterPath="$PROJECT_DIR$/app/img/003.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_10.png" afterPath="$PROJECT_DIR$/app/img/003_10.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_11.png" afterPath="$PROJECT_DIR$/app/img/003_11.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_110.png" afterPath="$PROJECT_DIR$/app/img/003_110.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_111.png" afterPath="$PROJECT_DIR$/app/img/003_111.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_112.png" afterPath="$PROJECT_DIR$/app/img/003_112.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_113.png" afterPath="$PROJECT_DIR$/app/img/003_113.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_114.png" afterPath="$PROJECT_DIR$/app/img/003_114.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_115.png" afterPath="$PROJECT_DIR$/app/img/003_115.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_12.png" afterPath="$PROJECT_DIR$/app/img/003_12.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_13.png" afterPath="$PROJECT_DIR$/app/img/003_13.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_14.png" afterPath="$PROJECT_DIR$/app/img/003_14.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_15.png" afterPath="$PROJECT_DIR$/app/img/003_15.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_16.png" afterPath="$PROJECT_DIR$/app/img/003_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_17.png" afterPath="$PROJECT_DIR$/app/img/003_17.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_18.png" afterPath="$PROJECT_DIR$/app/img/003_18.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/003_19.png" afterPath="$PROJECT_DIR$/app/img/003_19.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004.png" afterPath="$PROJECT_DIR$/app/img/004.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_10.png" afterPath="$PROJECT_DIR$/app/img/004_10.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_11.png" afterPath="$PROJECT_DIR$/app/img/004_11.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_110.png" afterPath="$PROJECT_DIR$/app/img/004_110.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_12.png" afterPath="$PROJECT_DIR$/app/img/004_12.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_13.png" afterPath="$PROJECT_DIR$/app/img/004_13.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_14.png" afterPath="$PROJECT_DIR$/app/img/004_14.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_15.png" afterPath="$PROJECT_DIR$/app/img/004_15.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_16.png" afterPath="$PROJECT_DIR$/app/img/004_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_17.png" afterPath="$PROJECT_DIR$/app/img/004_17.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_18.png" afterPath="$PROJECT_DIR$/app/img/004_18.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/004_19.png" afterPath="$PROJECT_DIR$/app/img/004_19.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005.png" afterPath="$PROJECT_DIR$/app/img/005.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_10.png" afterPath="$PROJECT_DIR$/app/img/005_10.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_11.png" afterPath="$PROJECT_DIR$/app/img/005_11.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_110.png" afterPath="$PROJECT_DIR$/app/img/005_110.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_12.png" afterPath="$PROJECT_DIR$/app/img/005_12.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_13.png" afterPath="$PROJECT_DIR$/app/img/005_13.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_14.png" afterPath="$PROJECT_DIR$/app/img/005_14.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_15.png" afterPath="$PROJECT_DIR$/app/img/005_15.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_16.png" afterPath="$PROJECT_DIR$/app/img/005_16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_17.png" afterPath="$PROJECT_DIR$/app/img/005_17.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_18.png" afterPath="$PROJECT_DIR$/app/img/005_18.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/005_19.png" afterPath="$PROJECT_DIR$/app/img/005_19.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/btn-fire.png" afterPath="$PROJECT_DIR$/app/img/btn-fire.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/example.png" afterPath="$PROJECT_DIR$/app/img/example.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/female-soldier-head.png" afterPath="$PROJECT_DIR$/app/img/female-soldier-head.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/female-soldier.png" afterPath="$PROJECT_DIR$/app/img/female-soldier.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/male-soldier-head.png" afterPath="$PROJECT_DIR$/app/img/male-soldier-head.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/male-soldier.png" afterPath="$PROJECT_DIR$/app/img/male-soldier.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot.png" afterPath="$PROJECT_DIR$/app/img/shoot.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot1/shoot1-0.png" afterPath="$PROJECT_DIR$/app/img/shoot1/shoot1-0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot1/shoot1-1.png" afterPath="$PROJECT_DIR$/app/img/shoot1/shoot1-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot1/shoot1-2.png" afterPath="$PROJECT_DIR$/app/img/shoot1/shoot1-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot1/shoot1-3.png" afterPath="$PROJECT_DIR$/app/img/shoot1/shoot1-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot1/shoot1-4.png" afterPath="$PROJECT_DIR$/app/img/shoot1/shoot1-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot1/shoot1-5.png" afterPath="$PROJECT_DIR$/app/img/shoot1/shoot1-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot1/shoot1-6.png" afterPath="$PROJECT_DIR$/app/img/shoot1/shoot1-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot1/shoot1-7.png" afterPath="$PROJECT_DIR$/app/img/shoot1/shoot1-7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot2/shoot2-0.png" afterPath="$PROJECT_DIR$/app/img/shoot2/shoot2-0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot2/shoot2-1.png" afterPath="$PROJECT_DIR$/app/img/shoot2/shoot2-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot2/shoot2-2.png" afterPath="$PROJECT_DIR$/app/img/shoot2/shoot2-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot2/shoot2-3.png" afterPath="$PROJECT_DIR$/app/img/shoot2/shoot2-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot2/shoot2-4.png" afterPath="$PROJECT_DIR$/app/img/shoot2/shoot2-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot2/shoot2-5.png" afterPath="$PROJECT_DIR$/app/img/shoot2/shoot2-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot2/shoot2-6.png" afterPath="$PROJECT_DIR$/app/img/shoot2/shoot2-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot2/shoot2-7.png" afterPath="$PROJECT_DIR$/app/img/shoot2/shoot2-7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot3/shoot3-0.png" afterPath="$PROJECT_DIR$/app/img/shoot3/shoot3-0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot3/shoot3-1.png" afterPath="$PROJECT_DIR$/app/img/shoot3/shoot3-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot3/shoot3-2.png" afterPath="$PROJECT_DIR$/app/img/shoot3/shoot3-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot3/shoot3-3.png" afterPath="$PROJECT_DIR$/app/img/shoot3/shoot3-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot3/shoot3-4.png" afterPath="$PROJECT_DIR$/app/img/shoot3/shoot3-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot3/shoot3-5.png" afterPath="$PROJECT_DIR$/app/img/shoot3/shoot3-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot3/shoot3-6.png" afterPath="$PROJECT_DIR$/app/img/shoot3/shoot3-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot3/shoot3-7.png" afterPath="$PROJECT_DIR$/app/img/shoot3/shoot3-7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot4/shoot4-0.png" afterPath="$PROJECT_DIR$/app/img/shoot4/shoot4-0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot4/shoot4-1.png" afterPath="$PROJECT_DIR$/app/img/shoot4/shoot4-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot4/shoot4-2.png" afterPath="$PROJECT_DIR$/app/img/shoot4/shoot4-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot4/shoot4-3.png" afterPath="$PROJECT_DIR$/app/img/shoot4/shoot4-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot4/shoot4-4.png" afterPath="$PROJECT_DIR$/app/img/shoot4/shoot4-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot4/shoot4-5.png" afterPath="$PROJECT_DIR$/app/img/shoot4/shoot4-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot4/shoot4-6.png" afterPath="$PROJECT_DIR$/app/img/shoot4/shoot4-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/shoot4/shoot4-7.png" afterPath="$PROJECT_DIR$/app/img/shoot4/shoot4-7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank.png" afterPath="$PROJECT_DIR$/app/img/tank.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank1/tank1-0.png" afterPath="$PROJECT_DIR$/app/img/tank1/tank1-0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank1/tank1-1.png" afterPath="$PROJECT_DIR$/app/img/tank1/tank1-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank1/tank1-2.png" afterPath="$PROJECT_DIR$/app/img/tank1/tank1-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank1/tank1-3.png" afterPath="$PROJECT_DIR$/app/img/tank1/tank1-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank1/tank1-4.png" afterPath="$PROJECT_DIR$/app/img/tank1/tank1-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank1/tank1-5.png" afterPath="$PROJECT_DIR$/app/img/tank1/tank1-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank1/tank1-6.png" afterPath="$PROJECT_DIR$/app/img/tank1/tank1-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank1/tank1-7.png" afterPath="$PROJECT_DIR$/app/img/tank1/tank1-7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank2/tank2-0.png" afterPath="$PROJECT_DIR$/app/img/tank2/tank2-0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank2/tank2-1.png" afterPath="$PROJECT_DIR$/app/img/tank2/tank2-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank2/tank2-2.png" afterPath="$PROJECT_DIR$/app/img/tank2/tank2-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank2/tank2-3.png" afterPath="$PROJECT_DIR$/app/img/tank2/tank2-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank2/tank2-4.png" afterPath="$PROJECT_DIR$/app/img/tank2/tank2-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank2/tank2-5.png" afterPath="$PROJECT_DIR$/app/img/tank2/tank2-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank2/tank2-6.png" afterPath="$PROJECT_DIR$/app/img/tank2/tank2-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank2/tank2-7.png" afterPath="$PROJECT_DIR$/app/img/tank2/tank2-7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank3/tank3-0.png" afterPath="$PROJECT_DIR$/app/img/tank3/tank3-0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank3/tank3-1.png" afterPath="$PROJECT_DIR$/app/img/tank3/tank3-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank3/tank3-2.png" afterPath="$PROJECT_DIR$/app/img/tank3/tank3-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank3/tank3-3.png" afterPath="$PROJECT_DIR$/app/img/tank3/tank3-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank3/tank3-4.png" afterPath="$PROJECT_DIR$/app/img/tank3/tank3-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank3/tank3-5.png" afterPath="$PROJECT_DIR$/app/img/tank3/tank3-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank3/tank3-6.png" afterPath="$PROJECT_DIR$/app/img/tank3/tank3-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank3/tank3-7.png" afterPath="$PROJECT_DIR$/app/img/tank3/tank3-7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank4/tank4-0.png" afterPath="$PROJECT_DIR$/app/img/tank4/tank4-0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank4/tank4-1.png" afterPath="$PROJECT_DIR$/app/img/tank4/tank4-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank4/tank4-2.png" afterPath="$PROJECT_DIR$/app/img/tank4/tank4-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank4/tank4-3.png" afterPath="$PROJECT_DIR$/app/img/tank4/tank4-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank4/tank4-4.png" afterPath="$PROJECT_DIR$/app/img/tank4/tank4-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank4/tank4-5.png" afterPath="$PROJECT_DIR$/app/img/tank4/tank4-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank4/tank4-6.png" afterPath="$PROJECT_DIR$/app/img/tank4/tank4-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/tank4/tank4-7.png" afterPath="$PROJECT_DIR$/app/img/tank4/tank4-7.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/caption.htm" afterPath="$PROJECT_DIR$/app/caption.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.htm" afterPath="$PROJECT_DIR$/app/main.htm" />
     </list>
     <ignored path="King-of-Bombard-1.1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -198,12 +49,12 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+            <state relative-caret-position="706">
+              <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
                 <element signature="e#484#492#0" expanded="false" />
-                <element signature="e#3754#8457#0" expanded="false" />
+                <element signature="e#3719#8422#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -395,12 +246,12 @@
       <workItem from="1477207171991" duration="10280000" />
       <workItem from="1477274014970" duration="6109000" />
       <workItem from="1477302469520" duration="4575000" />
-      <workItem from="1477374799750" duration="3192000" />
+      <workItem from="1477374799750" duration="3928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24156000" />
+    <option name="totallyTimeSpent" value="24892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -440,7 +291,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/js/app.js</url>
-          <line>112</line>
+          <line>110</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -474,7 +325,7 @@
           <folding>
             <element signature="e#0#40#0" expanded="false" />
             <element signature="e#484#492#0" expanded="false" />
-            <element signature="e#3754#8457#0" expanded="false" />
+            <element signature="e#3719#8422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -511,7 +362,7 @@
           <folding>
             <element signature="e#0#40#0" expanded="false" />
             <element signature="e#484#492#0" expanded="false" />
-            <element signature="e#3754#8457#0" expanded="false" />
+            <element signature="e#3719#8422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -548,7 +399,7 @@
           <folding>
             <element signature="e#0#40#0" expanded="false" />
             <element signature="e#484#492#0" expanded="false" />
-            <element signature="e#3754#8457#0" expanded="false" />
+            <element signature="e#3719#8422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -624,12 +475,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        <state relative-caret-position="706">
+          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
             <element signature="e#484#492#0" expanded="false" />
-            <element signature="e#3754#8457#0" expanded="false" />
+            <element signature="e#3719#8422#0" expanded="false" />
           </folding>
         </state>
       </provider>

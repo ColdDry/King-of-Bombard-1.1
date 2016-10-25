@@ -30,8 +30,6 @@
             }];
         var quesNow = 0;
         // $scope.point =
-
-        $scope.inputAns = '';
         $scope.srcTank = 'img/tank.png';
         $scope.srcLine = 'img/001.png';
         $scope.srcShoot = 'img/shoot.png';
@@ -60,7 +58,6 @@
                 }, 1500);
                 playable = false;
                 playTimes++;
-                $scope.inputAns = '';
             }
         }
 
@@ -104,6 +101,7 @@
             $scope.showFail = false;
             $scope.showTip = false;
             playable = true;
+            $scope.inputAns = '';
         }
 
 
