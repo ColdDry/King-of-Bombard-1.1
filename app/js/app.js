@@ -3,7 +3,7 @@
  */
 (function () {
     'use strict';
-    var app = angular.module('KOB',['ngRoute']);
+    var app = angular.module('KOB', ['ngRoute']);
 
     app.config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/', {
@@ -15,15 +15,97 @@
         });
     }]);
 
-    app.controller('captionCtrl',['$scope',function ($scope) {
+    app.controller('captionCtrl', ['$scope', function ($scope) {
 
     }]);
 
-    app.controller('mainCtrl',['$scope','imgSrc', '$timeout', '$interval',function ($scope, $timeout, $interval, imgSrc) {
+    app.controller('mainCtrl', ['$scope', 'imgSrc', '$timeout', '$interval', function ($scope,imgSrc, $timeout, $interval) {
+        var quesRes = [
+            {
+                ques: 1,
+                ans: 9,
+                lineImg: 'img/001.png',
+                point_1: '提示一:數線由0出發，越往右表示數值越大，上圖中每一格的距離都是1。',
+                point_2: '提示二:數線由0出發，越往右表示數值越大，上圖中每一格的距離都是1，射擊的靶在第九格，所以距離應填9。'
+            }];
+        var quesNow = 0;
+        // $scope.point =
+
+        $scope.inputAns = '';
+        $scope.srcTank = 'img/tank.png';
+        $scope.srcLine = 'img/001.png';
+        $scope.srcShoot = 'img/shoot.png';
         $scope.showShoot = true;
         $scope.showSuccess = false;
         $scope.showFail = false;
         $scope.showTip = false;
+        var playable= true;
+        var playTimes = 0;
+        var isInt = /^[0-9]*[1-9][0-9]*$/; //判斷正整數的function
+
+        $scope.onFire = function () {
+            if (isInt.test($scope.inputAns) && playable) {
+                $scope.srcLine = quesRes[quesNow].lineImg;
+                var count = 0;
+                $interval(function () {
+                    $scope.srcTank = imgSrc.getTankImgs($scope.inputAns)[count];
+                    $scope.srcShoot = imgSrc.getShootImgs($scope.inputAns)[count];
+                    count++;
+                }, 200, 8);
+                $timeout(function () {
+                    $scope.srcLine = imgSrc.getLineImgs(quesRes[quesNow].ques, $scope.inputAns);
+                    $timeout(function () {
+                        checkAns();
+                    }, 800);
+                }, 1500);
+                playable = false;
+                playTimes++;
+                $scope.inputAns = '';
+            }
+        }
+
+
+        var checkAns = function () {
+            if ($scope.inputAns == quesRes[quesNow].ans) {
+                $scope.showShoot = false;
+                $scope.showSuccess = true;
+                $scope.showFail = false;
+                $scope.showTip = false;
+            }else {
+                switch (playTimes){
+                    case 1:
+                        $scope.showShoot = false;
+                        $scope.showSuccess = false;
+                        $scope.showFail = true;
+                        $scope.showTip = false;
+                        break;
+                    case 2:
+                        $scope.showShoot = false;
+                        $scope.showSuccess = false;
+                        $scope.showFail = false;
+                        $scope.showTip = true;
+                        $scope.point = quesRes[quesNow].point_1;
+                        break;
+                    default:
+                        $scope.showShoot = false;
+                        $scope.showSuccess = false;
+                        $scope.showFail = false;
+                        $scope.showTip = true;
+                        $scope.point = quesRes[quesNow].point_2;
+                        break;
+                }
+
+            }
+        }
+
+        $scope.onTryAgain = function () {
+            $scope.showShoot = true;
+            $scope.showSuccess = false;
+            $scope.showFail = false;
+            $scope.showTip = false;
+            playable = true;
+        }
+
 
     }]);
 

@@ -5,17 +5,17 @@
     <div class="game-ground">
         <div class="mission-area">
             <h2 class="text-center" style="color: #001e55"><strong>任務區</strong></h2>
-            <img class="" src="images/tank.png" width="300px" alt="tank">
-            <img style="margin-top: 30px" src="images/001.png" width="650px" alt="line">
+            <img class="" ng-src="{{srcTank}}" width="300px" alt="tank">
+            <img style="margin-top: 30px" ng-src="{{srcLine}}" width="650px" alt="line">
         </div>
         <div style="width: 100%;border: solid 1.5px #2b669a;"></div>
         <div class="tip-area">
-            <img class="" src="images/shoot.png" width="500" height="400" alt="shoot" ng-show="showShoot">
+            <img class="" ng-src="{{srcShoot}}" width="500" height="400" alt="shoot" ng-show="showShoot">
             <div class="te" ng-show="showSuccess">
                 <div class="dialog-frame">
                     <h1 class="text-center text-primary"><strong>恭喜!!命中目標</strong></h1>
                 </div>
-                <img class="cursor-style" style="margin: 10px 175px" src="images/male-soldier-head.png" width="150"
+                <img class="cursor-style" style="margin: 10px 175px" src="img/male-soldier-head.png" width="150"
                      height="150" alt="head-img">
                 <p class="text-success text-center cursor-style"><strong>按我到下一關</strong></p>
             </div>
@@ -23,16 +23,16 @@
                 <div class="dialog-frame">
                     <h1 class="text-center text-primary"><strong>好可惜!沒射中</strong></h1>
                 </div>
-                <img class="cursor-style" style="margin: 10px 175px" src="images/female-soldier-head.png" width="150"
-                     height="150" alt="head-img">
-                <p class="text-danger text-center cursor-style"><strong>按我到下一關</strong></p>
+                <img class="cursor-style" style="margin: 10px 175px" src="img/female-soldier-head.png" width="150"
+                     height="150" alt="head-img" ng-click="onTryAgain()">
+                <p class="text-danger text-center cursor-style"><strong>按我再試一次</strong></p>
             </div>
             <div class="" ng-show="showTip">
                 <div class="dialog-frame">
-                    <h3 class="text-justify text-primary"><strong>提示:數線由0出發，越往右數值越大，上圖中每一格的距離都是1。</strong></h3>
+                    <h3 class="text-justify text-primary"><strong>{{point}}</strong></h3>
                 </div>
-                <img class="cursor-style" style="margin: 10px 175px" src="images/female-soldier-head.png" width="150"
-                     height="150" alt="head-img">
+                <img class="cursor-style" style="margin: 10px 175px" src="img/female-soldier-head.png" width="150"
+                     height="150" alt="head-img"  ng-click="onTryAgain()">
                 <p class="text-danger text-center cursor-style"><strong>按我再試一次</strong></p>
             </div>
         </div>
@@ -40,9 +40,9 @@
         <div class="answer-area">
             <h2 class="text-center" style="color: #9acfea"><strong>發射區</strong></h2>
             <h3 class="text-center" style="color: #9cd28e"><strong>距離設定</strong></h3>
-            <input class="input-answer text-center" type="number">
+            <input class="input-answer text-center" type="number" ng-model="inputAns">
             <div class="gray-desk">
-                <img class="fire-button cursor-style" src="images/btn-fire.png" width="150px" alt="fire-button">
+                <img class="fire-button cursor-style" src="img/btn-fire.png" width="150px" alt="fire-button" ng-click="onFire()">
             </div>
         </div>
     </div>
